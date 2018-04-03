@@ -2,6 +2,7 @@ html, body {
   font-size: 16px;
   color: white;
 }
+/*main page set up*/
 .page {
   display: flex;
   flex-direction: column;
@@ -11,29 +12,30 @@ html, body {
 .container {
   display: flex;
   flex-direction: column;
-    width: 960px;
-    border: 1px solid red;
+  width: 960px;
+  border: 1px solid red;
 }
-
+/*logo and title banner */
 .banner {
   display: flex;
   align-items: center;
   background-color: black;
   width: 100%;
-
-
 }
+
 .logo {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   height: 1.5rem;
-
 }
+
 .title {
   margin-left: 0.5rem;
   margin-top:  0.66rem;
   margin-bottom: 0.66rem;
 }
+
+/*main content page */
 .main-content {
   display: flex;
   flex-direction: column;
@@ -52,6 +54,7 @@ html, body {
   margin-left: 5rem;
   width: 20rem;
 }
+
 .new-arrival p {
   margin-top: 2rem;
   margin-bottom: 0.25rem;
@@ -66,36 +69,32 @@ html, body {
   font-family: Helvetica;
   font-size: 2rem;
   font-weight: bold;
-
 }
+/*navigation bar */
 .navigation  {
   display: inline-flex;
   background-color: firebrick;
   justify-content: space-around;
 }
+
 .navigation a {
   color: white;
   text-decoration: none;
 }
+
 .navigation span {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
 
-.new-arrival {
-  display: flex;
-  width: 20rem;
-  margin-top: 9rem;
-  margin-bottom: 20rem;
-}
+ /*second part of content */
 .accessories {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 960px;
   height: 14.25rem;
-  border: 1px solid blue;
 }
+
 .accessories span {
   display: flex;
   flex-direction: column;
@@ -104,15 +103,15 @@ html, body {
   border: 4px solid black;
   margin-top: 3rem;
   margin-bottom: 1rem;
-
-
 }
+
 .accessories img {
   display: block;
   width: auto;
-  height: 50%;
+  height: 60%;
   padding: 2rem;
 }
+
 .captions h2 {
  background-color: black;
   padding-top: 0.5rem;
@@ -124,15 +123,66 @@ html, body {
   font-family: Helvetica;
 }
 
-
 .captions {
   display: inline-flex;
   flex-direction: row;
-
 }
+
 .captions span {
   display: inline-flex;
   justify-content: space-around;
   width: 100%;
+}
+.contact {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.location {
+  display: inline-flex;
+  flex-direction: column;
+  align-content: center;
+  width: 35%;
+}
+.location span {
+  background-color: black;
+  margin-top: 3rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+.location p {
+  color: black;
+  margin-bottom: 4rem;
+  font-weight: bold;
+}
+.hours {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 35%;
+}
+.hours span {
+  background-color: black;
+  margin-top: 3rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+.hours p{
+  color: black;
+  margin-bottom: 4rem;
+  font-weight: bold;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 5rem;
+}
+.footer span {
+  text-align: left;
 
 }
