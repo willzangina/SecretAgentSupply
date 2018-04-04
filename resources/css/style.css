@@ -145,7 +145,6 @@ html, body {
 .location span {
   display: flex;
   flex-direction: column;
-  
   margin-top: 1.5rem;
   width: 35%;
 }
@@ -170,8 +169,39 @@ html, body {
   text-align: left;
 }
 @media only screen and (max-width: 1023px) {
-
+.accessories .glasses {
+  display: none;
+}
+.accessories .pen, .accessories .watch {
+  width: 47%;
+}
 }
 @media only screen and (max-width: 469px) {
-
+.accessories .pen {
+  width: 90%;
+}
+.accessories .watch, .accessories .glasses {
+  display: none;
+}
+.location {
+  flex-direction: column;
+  align-items: center;
+}
+.location span {
+  margin-top: 0.5rem;
+  width: 90%;
+}
+.new-arrival {
+  margin-top: 10rem;
+  height: 15rem;
+  font-weight: bold;
+}
+.new-arrival p {
+  font-size: 0.77rem;
+  padding-top: 1rem;
+}
+.new-arrival span {
+  font-size: 1rem;
+  padding-left: 2rem;
+}
 }
